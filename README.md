@@ -69,13 +69,16 @@ This project fully satisfies and exceeds all assignment requirements for **Reinf
 
 ### System Architecture Diagram
 
-*(Ensure these diagrams exist in a `/diagrams` folder.)*
+<p align="center">
+  <img src="System%20Architecture%20–%20QA-RL%20Orchestrator.png" width="800">
+</p>
 
-![Architecture](diagrams/system_architecture.png)
 
 ### High-Level RL Overview
 
-![RL Overview](diagrams/rl_high_level.png)
+<p align="center">
+  <img src="High-Level%20Reinforcement%20Learning%20Summary%20Diagram.png" width="800">
+</p>
 
 ---
 
