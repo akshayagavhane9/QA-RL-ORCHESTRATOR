@@ -202,10 +202,6 @@ The full technical report (PDF) with:
 - Results & statistical validation
 - Ethical considerations
 
-➡️ [Download Technical Report](path/to/technical_report.pdf)
-
-*(Upload your PDF and ensure filename matches.)*
-
 ---
 
 ## 🎥 Demonstration Video
@@ -217,10 +213,6 @@ A 10-minute walkthrough showing:
 - Sample interactions
 - Improvement over time
 - RL vs baseline comparisons
-
-👉 [Watch Demo Video](https://youtu.be/your-demo-link)
-
-*(Add your YouTube/Drive link after recording)*
 
 ---
 
