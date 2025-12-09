@@ -27,6 +27,18 @@ This project fully satisfies and exceeds all assignment requirements for **Reinf
 
 ---
 
+## 🧠 Reinforcement Learning Formulation 
+
+The QA-RL Orchestrator is modeled as a Markov Decision Process (MDP):
+- **State (sₜ):** CI time used, tests run, bugs found, module changed, change size.
+- **Action (aₜ):** Select next test (0–19).
+- **Reward (rₜ):** Bonus for bug detection, penalty for time, flakiness, overtime.
+- **Transition:** CI environment updates state based on executed test.
+
+DQN approximates Q(s, a) and UCB selects high-level strategies.
+
+---
+
 ## 🧩 Key Features
 
 ### 🤖 Multi-Agent Architecture
