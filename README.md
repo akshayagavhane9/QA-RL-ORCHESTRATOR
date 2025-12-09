@@ -218,7 +218,7 @@ The full technical report (PDF) with:
 
 ## 🎥 Demonstration Video
 
-A 10-minute walkthrough showing:
+A walkthrough showing:
 
 - How the system works
 - Training loop
