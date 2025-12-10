@@ -249,7 +249,7 @@ A beautiful, production-quality **Streamlit dashboard** is included for analyzin
 
 ### RL vs Baseline
 <p align="center">
-  <img src="RL%20vs%20Baseline.png" width="800">
+  <img src="RL%20vs%20Basline.png" width="800">
 </p>
 
 ### Strategy Usage
