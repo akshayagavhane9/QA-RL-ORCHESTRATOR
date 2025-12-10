@@ -169,7 +169,10 @@ Plots saved in:
 ```
 results/*.png
 ```
-
+#### 4. Launch the Streamlit Dashboard
+```bash
+streamlit run src/ui/dashboard.py
+```
 ---
 
 ## 📊 Results Summary
@@ -236,16 +239,28 @@ A beautiful, production-quality **Streamlit dashboard** is included for analyzin
 
 ---
 
-## 📸 Dashboard Screenshots (Add Your Own Here)
+## 📸 Dashboard Screenshots 
 
-Replace these with real screenshots from your local Streamlit run:
+
 
 ```markdown
-![RL Learning Dynamics](ui_screenshots/rl_learning.png)
-![RL vs Baseline](ui_screenshots/rl_baseline.png)
-![Strategy Usage](ui_screenshots/strategy_usage.png)
-![Best Episodes](ui_screenshots/best_episodes.png)
-
+![RL Learning Dynamics]
+<p align="center">
+  <img src="High-Level%20Reinforcement%20Learning%20Summary%20Diagram.png" width="800">
+</p>
+![RL vs Baseline]
+<p align="center">
+  <img src="High-Level%20Reinforcement%20Learning%20Summary%20Diagram.png" width="800">
+</p>
+![Strategy Usage]
+<p align="center">
+  <img src="High-Level%20Reinforcement%20Learning%20Summary%20Diagram.png" width="800">
+</p>
+![Best Episodes]
+<p align="center">
+  <img src="High-Level%20Reinforcement%20Learning%20Summary%20Diagram.png" width="800">
+</p>
+```
 ---
 
 ## 📄 Technical Report
