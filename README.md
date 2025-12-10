@@ -99,12 +99,13 @@ DQN approximates Q(s, a) and UCB selects high-level strategies.
 qa-rl-orchestrator/
 │
 ├── src/
-│   ├── main.py
 │   ├── agents/
 │   ├── rl/
 │   ├── env/
 │   ├── tools/
-│   └── config/
+│   ├── ui/
+│   │   └── dashboard.py
+│   └── main.py
 │
 ├── scripts/
 │   ├── plot_results.py
@@ -114,6 +115,7 @@ qa-rl-orchestrator/
 ├── results/
 ├── diagrams/
 └── README.md
+
 ```
 
 ---
@@ -201,6 +203,48 @@ results/*.png
 | Convergence      | Stable         | No learning            |
 
 **RL clearly outperforms the baseline across all major metrics.**
+
+---
+
+## 🎨 Interactive Dashboard 
+
+A beautiful, production-quality **Streamlit dashboard** is included for analyzing RL performance, baseline comparison, and strategy behavior.
+
+### 🎛 Features in the UI
+
+#### 📉 RL Learning Dynamics
+- Area charts with **rolling averages**
+- **Reward vs Episodes**
+- **Bugs Found vs Episodes**
+
+#### ⚖️ RL vs Baseline Comparison
+- Average performance **bar charts**
+- **Per-episode advantage** area chart (RL – Baseline)
+
+#### 🎯 Strategy Usage (RL)
+- Horizontal bar charts
+- **Percentage labels** showing dominance of best strategy
+
+#### ⭐ Best Episodes Highlight
+- Highest reward episode
+- Most bugs found episode
+- Mini **episode breakdown table**
+
+#### 📂 Raw Metrics Preview
+- Scrollable table of all metrics  
+- Useful for debugging and validation
+
+---
+
+## 📸 Dashboard Screenshots (Add Your Own Here)
+
+Replace these with real screenshots from your local Streamlit run:
+
+```markdown
+![RL Learning Dynamics](ui_screenshots/rl_learning.png)
+![RL vs Baseline](ui_screenshots/rl_baseline.png)
+![Strategy Usage](ui_screenshots/strategy_usage.png)
+![Best Episodes](ui_screenshots/best_episodes.png)
 
 ---
 
