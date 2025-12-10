@@ -242,25 +242,26 @@ A beautiful, production-quality **Streamlit dashboard** is included for analyzin
 ## 📸 Dashboard Screenshots 
 
 
+### RL Learning Dynamics
+<p align="center">
+  <img src="RL%20Learning%20Dynamics.png" width="800">
+</p>
 
-```markdown
-![RL Learning Dynamics]
+### RL vs Baseline
 <p align="center">
-  <img src="High-Level%20Reinforcement%20Learning%20Summary%20Diagram.png" width="800">
+  <img src="RL%20vs%20Diagram.png" width="800">
 </p>
-![RL vs Baseline]
+
+### Strategy Usage
 <p align="center">
-  <img src="High-Level%20Reinforcement%20Learning%20Summary%20Diagram.png" width="800">
+  <img src="Strategy%20usage%20RL.png" width="800">
 </p>
-![Strategy Usage]
+
+### Best Episodes
 <p align="center">
-  <img src="High-Level%20Reinforcement%20Learning%20Summary%20Diagram.png" width="800">
+  <img src="Best%20Episode%20RL.png" width="800">
 </p>
-![Best Episodes]
-<p align="center">
-  <img src="High-Level%20Reinforcement%20Learning%20Summary%20Diagram.png" width="800">
-</p>
-```
+
 ---
 
 ## 📄 Technical Report
